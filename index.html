@@ -11,17 +11,21 @@
 			.figment-branding-logo {background-image: url("http://figment.so/favicon.png"); background-size: contain; width: 20px; height: 20px;}
 			.figment-branding a {text-decoration: none; align-self: center; padding-left: 5px; color: #fff; font-family: "Plus Jakarta Text"; font-size: 12px; font-weight: bold;}
 			.figment-branding a:hover {opacity: 0.5;}
+      .html,body{
+        overflow-x: hidden;
+    width: 100%;
+      }
 			body {margin: 0;}
 		</style>
 		<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 		<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 	</head>
 	<body>
-		<main id="world"></main>
+		<main id="world" class="abc"> </main>
 		<script>
 			AOS.init()
 
-var SCALABLE_CSS_PROPERTIES=["border-radius","font-size","line-height"],CONTENT_WINDOW_MAX_WIDTH=1200,MOBILE_SCREEN_BREAKPOINT=500,metadata={
+var SCALABLE_CSS_PROPERTIES=["border-radius","font-size","line-height"],CONTENT_WINDOW_MAX_WIDTH=2400,MOBILE_SCREEN_BREAKPOINT=700,metadata={
   "desktop": [
     {
       "tag": "div",
@@ -2873,6 +2877,7 @@ var SCALABLE_CSS_PROPERTIES=["border-radius","font-size","line-height"],CONTENT_
                   "css": [
                     {
                       "opacity": 1,
+                      "margin-top": "15px",
                       "transform": "matrix(1.00, 0.00, 0.00, 1.00, 0, 0)"
                     }
                   ],
@@ -5578,6 +5583,7 @@ var SCALABLE_CSS_PROPERTIES=["border-radius","font-size","line-height"],CONTENT_
               "css": [
                 {
                   "opacity": 1,
+                  "border-top": "2px solid #98faec",
                   "transform": "matrix(1.00, 0.00, 0.00, 1.00, 0, 0)"
                 }
               ],
@@ -6207,6 +6213,8 @@ var SCALABLE_CSS_PROPERTIES=["border-radius","font-size","line-height"],CONTENT_
               "css": [
                 {
                   "opacity": 1,
+                  "border-top": "2px solid #43454D",
+                  "border-bottom": "2px solid #43454D",
                   "transform": "matrix(1.00, 0.00, 0.00, 1.00, 0, 0)"
                 }
               ],
@@ -7448,6 +7456,8 @@ var SCALABLE_CSS_PROPERTIES=["border-radius","font-size","line-height"],CONTENT_
               "css": [
                 {
                   "opacity": 1,
+                  "border-top": "1px solid #43454D",
+                  "padding-bottom": "5px",
                   "transform": "matrix(1.00, 0.00, 0.00, 1.00, 0, 0)"
                 }
               ],
