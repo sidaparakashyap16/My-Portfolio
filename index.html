@@ -19,6 +19,21 @@
 		</style>
 		<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 		<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      // Disable right-click
+      document.addEventListener('contextmenu', function(e) {
+          e.preventDefault();
+      });
+
+      // Disable common inspect shortcuts (F12, Ctrl+Shift+I, Ctrl+U)
+      document.addEventListener('keydown', function(e) {
+          if (e.key === 'F12' || 
+              (e.ctrlKey && e.shiftKey && e.key === 'I') || 
+              (e.ctrlKey && e.key === 'u')) {
+              e.preventDefault();
+          }
+      });
+  </script>
 	</head>
 	<body>
 		<main id="world" class="abc"> </main>
@@ -615,7 +630,7 @@ var SCALABLE_CSS_PROPERTIES=["border-radius","font-size","line-height"],CONTENT_
                                       "children": [],
                                       "figmaNodeName": "kashyapsidapara16102003@gmail.com",
                                       "figmaNodeType": "TEXT",
-                                      "content": "kashyapsidapara16102003@gmail.com",
+                                      "content": "sidaparakashyap16@gmail.com",
                                       "font": {
                                         "name": "IBM Plex Mono",
                                         "style": "Regular"
